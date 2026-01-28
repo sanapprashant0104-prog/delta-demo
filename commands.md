@@ -18,3 +18,9 @@ git log --oneline               # short history
 git add file.txt                    # add single file
 git add .                           # add all files
 git commit -m "message"
+
+# Branching
+git branch             # list branches
+git branch new-branch  # create branch
+git checkout branch    # switch branch
+git checkout -b name   # create + switch
