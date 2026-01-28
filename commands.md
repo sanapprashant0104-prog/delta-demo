@@ -24,3 +24,24 @@ git branch             # list branches
 git branch new-branch  # create branch
 git checkout branch    # switch branch
 git checkout -b name   # create + switch
+
+# Merge
+git merge branch-name
+
+# Remote (Git)
+git remote add origin <url>
+git remote -v
+git push origin main
+git pull origin main
+
+# Undo / Fix Mistakes
+git restore file.txt           # discard changes
+git reset file.txt             # unstage file
+git reset --hard HEAD          # remove all changes
+
+# Stash (Temporary Save)
+git stash
+git stash pop
+
+# Delete Branch
+git branch -d branch-name
